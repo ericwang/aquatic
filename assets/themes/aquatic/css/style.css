@@ -49,8 +49,8 @@ p, h2, h3, h4, h5, h6, ul {
 	margin:0;
 }
 a {
-	/*color:#000000;*/
-	color: #3B98C7;
+	color:#444;
+	/*color: #3B98C7;*/
 	text-decoration:none;
 	
 	-moz-transition: all 0.2s ease-out;
@@ -74,7 +74,7 @@ span#beans {
 	color:#72BF44;
 }
 a:hover, a:hover span#eighty, a:hover span#beans {
-	color:#444444;
+	color:#000000;
 	/*
 	-moz-transform-origin:0px 15px;
 	-moz-transform:matrix(1.0,0.0,0.0,-1,0px,0px);
@@ -118,6 +118,9 @@ div#wrapper {
 }
 .cnt a:hover{
 	color: #28BAFF;
+}
+.cnt a{
+	color: #3B98C7;
 }
 
 #content .posts li a {
