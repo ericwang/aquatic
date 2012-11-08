@@ -1,0 +1,27 @@
+<div id="content" class="index">
+	<div id="sidebar">
+		<ul>{% assign pages_list = site.pages %}{% assign group = 'navigation' %}{% include JB/pages_list %}
+			<li>
+				<a href="javascript:void(0);">LINKS</a>
+				<ul id="links">
+					<li><a href="http://chrisyue.com">俞欢波</a></li>
+					<li><a href="http://hi.baidu.com/longerface">郝明</a></li>
+					<li><a href="http://www.raisefree.com">宋扬</a></li>
+					<li><a href="http://findui.com/">刘舟</a></li>
+					<li><a href="http://www.wwzboy.com/">王志壮</a></li>
+					<li><a href="http://wowfjtk.appspot.com/">草丛</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="main">
+		<div class="page-header">
+			<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+		</div>
+		<div class="row">
+		  <div class="span12">
+		    {{ content }}
+		  </div>
+		</div>
+	</div>
+</div>
