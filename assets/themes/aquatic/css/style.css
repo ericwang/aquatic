@@ -49,7 +49,8 @@ p, h2, h3, h4, h5, h6, ul {
 	margin:0;
 }
 a {
-	color:#000000;
+	/*color:#000000;*/
+	color: #3B98C7;
 	text-decoration:none;
 	
 	-moz-transition: all 0.2s ease-out;
@@ -114,6 +115,9 @@ div#wrapper {
 
 #content a {
 	font-weight:bold;
+}
+.cnt a:hover{
+	color: #28BAFF;
 }
 
 #content .posts li a {
